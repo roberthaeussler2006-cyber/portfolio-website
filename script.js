@@ -120,7 +120,7 @@ contactForm.addEventListener('submit', function(e) {
     formStatus.className = 'form-status';
 
     // Send email via EmailJS
-    emailjs.sendForm('service_hx5w1x7', 'template_7njhs2m', this)
+    emailjs.sendForm('service_o4ekp5f', 'template_7njhs2m', this)
         .then(function() {
             showFormStatus('Thank you! Your message has been sent. I\'ll get back to you soon.', 'success');
             contactForm.reset();
