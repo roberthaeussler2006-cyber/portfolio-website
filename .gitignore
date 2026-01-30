@@ -3,3 +3,9 @@ node_modules/
 .env
 *.heic
 .claude/
+
+# Prevent accidental commits of media files dropped in project root
+/*.jpg
+/*.jpeg
+/*.png
+/*.pdf
